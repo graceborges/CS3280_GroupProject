@@ -26,11 +26,13 @@ namespace Add_Mod_Del_Invoice_Project.Search
 
         /// <summary>
         /// This button will send the selected invoice over to the editor
+        /// The search window should close and the main form gets focus
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btnSelectInvoice_Click(object sender, RoutedEventArgs e)
         {
+            //Send info over to main screen
 
         }
 
@@ -41,7 +43,18 @@ namespace Add_Mod_Del_Invoice_Project.Search
         /// <param name="e"></param>
         private void btnSearchInvoice_Click(object sender, RoutedEventArgs e)
         {
+            //If search has been clicked - enable select invoice
 
+        }
+
+        /// <summary>
+        /// Search window will close and main form gets focus
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BtnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            //close window and go back to main screen
         }
     }
 }

@@ -7,15 +7,16 @@
         mc:Ignorable="d"
         Title="wndSearch" Height="337.5" Width="550">
     <Grid Margin="0,0,2,4">
-        <Button x:Name="btnSelectInvoice" Content="Select Invoice" HorizontalAlignment="Left" Margin="225,270,0,0" VerticalAlignment="Top" Width="120" Height="30" Click="btnSelectInvoice_Click"/>
-        <Button x:Name="btnSearchInvoice" Content="Search Invoices" HorizontalAlignment="Left" Margin="331,85,0,0" VerticalAlignment="Top" Width="120" Height="30" Click="btnSearchInvoice_Click" RenderTransformOrigin="1.325,1.306"/>
-        <Label x:Name="lblInvoiceNum" Content="Invoice Number:" HorizontalAlignment="Left" Margin="27,34,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="tbxInvoiceNum" HorizontalAlignment="Left" Height="23" Margin="136,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lblInvoiceDate" Content="Invoice Date:" HorizontalAlignment="Left" Margin="40,79,0,0" VerticalAlignment="Top"/>
-        <DatePicker x:Name="dpInvoiceDate" HorizontalAlignment="Left" Margin="136,78,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lblInvoiceItem" Content="Invoice Item:" HorizontalAlignment="Left" Margin="281,34,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="cbxInvoiceItem" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="377,36,0,0"/>
-        <DataGrid x:Name="dgDisplayInvoices" HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="486" Margin="30,138,0,0"/>
+        <Button x:Name="btnSelectInvoice" Content="Select Invoice" HorizontalAlignment="Left" Margin="223,265,0,0" VerticalAlignment="Top" Width="120" Height="30" Click="btnSelectInvoice_Click" RenderTransformOrigin="0.925,-5.033"/>
+        <Button x:Name="btnSearchInvoice" Content="Search Invoices" HorizontalAlignment="Left" Margin="340,26,0,0" VerticalAlignment="Top" Width="120" Height="30" Click="btnSearchInvoice_Click" RenderTransformOrigin="1.325,1.306"/>
+        <Label x:Name="lblInvoiceNum" Content="Invoice Number:" HorizontalAlignment="Left" Margin="21,20,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblInvoiceDate" Content="Invoice Date:" HorizontalAlignment="Left" Margin="40,94,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblEquipmentID" Content="Equipment ID:" HorizontalAlignment="Left" Margin="41,57,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbxInvoiceItem" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="128,58,0,0"/>
+        <DataGrid x:Name="dgDisplayInvoices" HorizontalAlignment="Left" Height="117" VerticalAlignment="Top" Width="486" Margin="30,143,0,0"/>
+        <ComboBox x:Name="cbxInvoiceNumber" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="128,24,0,0"/>
+        <ComboBox x:Name="cbxInvoiceDate" HorizontalAlignment="Left" Margin="128,95,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="340,87,0,0" Height="30" Click="BtnCancel_Click"/>
 
     </Grid>
 </Window>
