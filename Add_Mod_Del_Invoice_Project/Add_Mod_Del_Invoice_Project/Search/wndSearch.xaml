@@ -11,7 +11,7 @@
         <Button x:Name="btnSearchInvoice" Content="Search Invoices" HorizontalAlignment="Left" Margin="340,26,0,0" VerticalAlignment="Top" Width="120" Height="30" Click="btnSearchInvoice_Click" RenderTransformOrigin="1.325,1.306"/>
         <Label x:Name="lblInvoiceNum" Content="Invoice Number:" HorizontalAlignment="Left" Margin="21,20,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblInvoiceDate" Content="Invoice Date:" HorizontalAlignment="Left" Margin="40,94,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblEquipmentID" Content="Equipment ID:" HorizontalAlignment="Left" Margin="41,57,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblEquipmentID" Content="Equipment ID:" HorizontalAlignment="Left" Margin="33,57,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="cbxInvoiceItem" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="128,58,0,0"/>
         <DataGrid x:Name="dgDisplayInvoices" HorizontalAlignment="Left" Height="117" VerticalAlignment="Top" Width="486" Margin="30,143,0,0"/>
         <ComboBox x:Name="cbxInvoiceNumber" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="128,24,0,0"/>
