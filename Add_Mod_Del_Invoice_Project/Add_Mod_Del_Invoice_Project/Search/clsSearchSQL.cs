@@ -9,14 +9,7 @@ namespace Add_Mod_Del_Invoice_Project.Search
     class clsSearchSQL
     {
         //private clsDataAccess db = new clsDataAccess();
-        
-
-        /*
-         * The assignment says that all three boxes need to be drop down boxes, so do I only 
-         * need one SQL search since they all will be chosen? Or do they not need to be chosen?
-         */
-
-            //not all three need to be filled out
+       
             
 
         /// <summary>
